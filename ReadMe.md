@@ -1,8 +1,8 @@
-# JSON Parser API
+# Req logger api
 
-Dit programma is een eenvoudige Node.js-server gebouwd met Express. Het biedt een API waarmee JSON-gegevens kunnen worden verzonden en verwerkt. Het valideert de JSON-invoer, logt verzoeken en geeft foutmeldingen voor ongeldige JSON of andere fouten.
+Een eenvoudige express server. Het biedt een API waarmee JSON-gegevens kunnen worden verzonden en verwerkt. Validatie van JSON-invoer, logt verzoeken en geeft foutmeldingen voor ongeldige JSON of andere fouten.
 
-## Functionaliteiten
+## Functies
 
 1. **JSON-validatie:** Controleert of de body van inkomende verzoeken een geldige JSON is.
 2. **Logging:** Logt alle inkomende verzoeken, inclusief timestamp, methode, URL en body.
@@ -36,13 +36,13 @@ Dit programma is een eenvoudige Node.js-server gebouwd met Express. Het biedt ee
 ## POST `/api`
 
 ### Beschrijving
-Deze endpoint accepteert een JSON-payload in de body van een POST-verzoek. Het valideert de JSON, logt het verzoek en retourneert een bevestiging bij succes.
+Accepteert een JSON-payload in de body van een POST-verzoek. 
 
 ### Headers
 - `Content-Type: application/json`
 
 ### Body
-De body moet een geldige JSON bevatten. Bijvoorbeeld:
+Moet een geldige JSON bevatten.
 ```json
 {
   "key": "value"
@@ -96,3 +96,11 @@ De body moet een geldige JSON bevatten. Bijvoorbeeld:
     "status": 500
   }
   ```
+
+  ### Functies later toe te voegen
+
+  - `Andere verzoeken loggen, standaard json teruggeven bij GET verzoeken bijvoorbeeld`
+  - `Headers loggen`
+  - `Docker compose files aanmaken voor snelstart container`
+
+  
