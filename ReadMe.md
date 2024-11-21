@@ -17,7 +17,7 @@ Een eenvoudige express server. Het biedt een API waarmee JSON-gegevens kunnen wo
 
 1. **Clone de repository:**
    ```bash
-   git clone <https://github.com/case-1/request_logger_api.git
+   git clone https://github.com/case-1/request_logger_api.git
    cd request_logger_api
    ```
 
