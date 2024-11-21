@@ -17,8 +17,8 @@ Een eenvoudige express server. Het biedt een API waarmee JSON-gegevens kunnen wo
 
 1. **Clone de repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone <https://github.com/case-1/request_logger_api.git
+   cd request_logger_api
    ```
 
 2. **Instaleer afhankelijkheden**
@@ -103,4 +103,3 @@ Moet een geldige JSON bevatten.
   - `Headers loggen`
   - `Docker compose files aanmaken voor snelstart container`
 
-  
